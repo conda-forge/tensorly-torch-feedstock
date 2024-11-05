@@ -1,5 +1,5 @@
 {% set name = "tensorly-torch" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tensorly-torch-{{ version }}.tar.gz
-  sha256: 5e3d7f60c1916be64d6237ad61ae714a3dc75980ec7fff1015bcccd92e7ab95a
+  sha256: 4c2f19f361113ca78f09b504a786075b0f51425468ae997a5f8018d4be6a4db5
 
 build:
   number: 0
